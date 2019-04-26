@@ -2,6 +2,7 @@
 
 import scipy.linalg as la
 
+
 # K largest eigenvalues of an adjacency matrix
 def compute_k_largest_eigenvalues(adj_mat, k):
     print("Computing {} largest eigenvalues".format(k))
@@ -24,3 +25,4 @@ def compute_degree_distribution(adj_mat):
 # Clustering coefficient
 def compute_global_clustering_coefficient(adj_mat):
     print("Computing global clustering coefficient")
+
